@@ -1,0 +1,49 @@
+/* Estilos globais*/
+body { 
+        font-family: Arial, sans-serif; 
+        margin: 0; 
+        padding: 0; 
+        background-color: #FFF5EE; 
+        color: #333;
+} 
+/*cabeçalho*/
+header { 
+        background-color: #441f11; 
+        padding: 5px 0; 
+} 
+header nav ul { 
+        list-style: none; 
+        padding: 0; 
+        text-align: center; 
+    }
+header nav ul li { 
+        display: inline; 
+        margin-right: 15px; 
+ }
+header nav ul li a {
+        color: #FFF5EE;
+        text-decoration: nome; 
+    }
+header nav ul li a:hover {
+        text-decoration: underline;
+    } 
+main {
+        padding: 20px; 
+        text-align: center; 
+ }
+ /*rodapé*/
+footer { 
+        background-color: #441f11 ; 
+        color: #f8f4f4; 
+        text-align: center; 
+        padding: 10px 5; 
+        position: relative; 
+        width:  100% 
+    }
+    .primeira {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        height: auto;
+    }
+    
